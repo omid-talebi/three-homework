@@ -1,0 +1,39 @@
+/* #b0c346 #4a521d #3a4600 */
+
+
+form{width: 100%; background-color: #b0c346; margin: 10px auto;padding:10px; }
+form fieldset{border: none;}
+form fieldset legend{ padding:10px; color:#ffffff;}
+form fieldset label{ display: block;  border: 3px solid #ffffff; padding:5px; background-color: #ffffff28; margin-bottom:3px; border-radius:5px; overflow:auto;  }
+form fieldset label textarea{float:right; margin-right: 3%;}
+form fieldset label input{
+    float: right;
+    margin-right: 3%;
+}
+form fieldset label label{
+    display: inline-block; 
+    background-color: transparent; border:none;
+}
+form label label input{ float: none; padding: 0; margin: 0;}
+form label label img{ vertical-align: top;}
+form fieldset #card_t img{
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+#btn_buy{
+    margin:3px auto 0;
+    display:block;
+    border-radius: 15px;
+    padding: 5px 20px;
+    background-color: #3a4600;
+    color: #fff;
+    border:none;
+}
+aside #btn_buy:hover{
+
+    background-color: #232905;
+    font-weight: bold;
+    cursor:pointer;
+}

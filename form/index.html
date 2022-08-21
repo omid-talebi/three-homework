@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Step 1 :Your detial</legend>
+            <label> Name
+                <input type="text" name="fname" placeholder="first & last name">
+            </label>
+            <label> Email 
+                <input type="text" name="email" placeholder="example@example.com" >
+            </label>
+            <label> Phone 
+                <input type="text" name="Phone" placeholder="Eg.+44750000000">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Step 2:Delivery address</legend>
+            <label>Adress
+                <textarea name="add" cols="21" rows="5"></textarea>
+            </label>
+            <label> post code 
+                <input type="text" name="pcode" >
+            </label>
+            <label>cuntry 
+                <input type="text" name="cntry" >
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Step 3 :Card details</legend>
+            <label> Card Type :  <br>
+                <label><input type="radio" name="ctype" value="visa"> <img src="images/visa.jpg" alt=""> Visa</label>
+                <label><input type="radio" name="ctype" value="Master"> <img src="images/master.jpg" alt="">  Master Card </label>
+                <label><input type="radio" name="ctype" value="amex"> <img src="images/amex.jpg" alt="">  AmEx </label>
+              </label>
+            <label> card number
+                <input type="text" name="c_number">
+            </label>
+            <label> Security code 
+                <input type="text" name="s_code" >
+            </label>
+            <label> Name on card 
+                <input type="text" name="n_card" >
+            </label>
+        </fieldset>
+        <input type="submit" value="BUY IT !" id="btn_buy">
+    </form>
+</body>
+</html>
